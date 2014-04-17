@@ -1,0 +1,11 @@
+*.DS_Store
+.sass-cache
+.idea
+.bowerrc
+bower.json
+gulpfile.js
+package.json
+README.md
+vendors
+assets/
+node_modules
