@@ -6,6 +6,6 @@ bower.json
 gulpfile.js
 package.json
 README.md
-vendors
+
 assets/
 node_modules
