@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title></title>
+    <title>Components > List group</title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="./theme-build/css/vendors.css">
@@ -145,7 +145,7 @@
       <nav class="cortana-nav">
         <ul>
           
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
           
         </ul>
         
@@ -372,7 +372,7 @@
             
               
               
-                <li><a href="components_>_list_group.html">List group</a></li>
+                <li><a class="active" href="components_>_list_group.html">List group</a></li>
               
             
           
@@ -554,7 +554,7 @@
 
     <header class="cortana-header sb-slide">
       
-        <h1>Styleguide home</h1>
+        <h1>List group</h1>
       
       <div id="open-left" class="cortana-menu-btn">
         <span></span>
@@ -570,6 +570,22 @@
 
         <nav id="cortana-inside-nav" class="cortana-inside-nav">
           <ul>
+             
+              
+                <li><a href="#a-list-group">List group</a></li>
+              
+             
+              
+                <li><a href="#b-badge">Badge</a></li>
+              
+             
+              
+                <li><a href="#c-linked-item">Linked items</a></li>
+              
+             
+              
+                <li><a href="#e-custom-content">Custom content</a></li>
+              
             
           </ul>
         </nav>
@@ -579,82 +595,102 @@
 
 
 
-<h1>Cortana demo</h1>
-
-<blockquote>
-<p>This is a styleguide demo using <a href="https://github.com/Yago31/Cortana">Cortana</a>, a sexy <a href="https://github.com/trulia/hologram">Hologram</a> theme. The doc was based on the Twitter <a href="https://github.com/bootflat/bootflat.github.io">Bootstrap</a> components and the <a href="https://github.com/bootflat/bootflat.github.io">Bootflat</a> theme. You can find the starter kit on Github.</p>
-</blockquote>
-
-<h2>Usage</h2>
-
-<p>To install the last version of <strong>Hologram</strong> (required) :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="err">@</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">:</span><span class="n">trulia</span><span class="o">/</span><span class="n">hologram</span><span class="p">.</span><span class="n">git</span>
-<span class="err">$</span> <span class="n">cd</span> <span class="n">hologram</span><span class="o">/</span>
-<span class="err">$</span> <span class="n">gem</span> <span class="n">build</span> <span class="n">hologram</span><span class="p">.</span><span class="n">gemspec</span>
-<span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">hologram</span><span class="o">-</span><span class="mf">1.0.1</span><span class="p">.</span><span class="n">gem</span>
-</pre></div></div>
-<p>To install <strong>Cortana</strong>, use Bower :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bower</span> <span class="n">install</span> <span class="o">--</span><span class="n">save</span><span class="o">-</span><span class="n">dev</span> <span class="n">Cortana</span>
-</pre></div></div>
-<p>Your <code>hologram_config.yml</code> should look like :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="cp"># Directory to parse</span>
-<span class="nl">source:</span> <span class="p">.</span><span class="o">/</span><span class="n">your</span><span class="o">-</span><span class="n">code</span>
-
-<span class="cp"># Directory to build the styleguide</span>
-<span class="nl">destination:</span> <span class="p">.</span><span class="o">/</span><span class="n">styleguide</span>
-
-<span class="cp"># Hologram theme</span>
-<span class="nl">documentation_assets:</span> <span class="p">.</span><span class="o">/</span><span class="n">bower_components</span><span class="o">/</span><span class="n">Cortana</span>
-
-<span class="cp"># To have a custom index page build with your README.md</span>
-<span class="nl">index:</span> <span class="n">README</span>
-
-<span class="cp"># List all css to include for the styleguide render examples (path from styleguide directory)</span>
-<span class="nl">css_include:</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">vendors</span><span class="p">.</span><span class="n">css</span><span class="err">&#39;</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">styles</span><span class="p">.</span><span class="n">css</span><span class="err">&#39;</span>
-
-<span class="cp"># List all js to include for the styleguide render examples (path from styleguide directory)</span>
-<span class="nl">js_include:</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="n">http</span><span class="o">:</span><span class="c1">//code.jquery.com/jquery-1.10.2.min.js&#39;</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">js</span><span class="o">/</span><span class="n">main</span><span class="p">.</span><span class="n">js</span><span class="err">&#39;</span>
-
-<span class="cp"># String who is used to split the category name and create category wrapper</span>
-<span class="nl">name_scope:</span> <span class="err">&#39;</span> <span class="o">&gt;</span> <span class="err">&#39;</span>
-</pre></div></div>
-<p>We recomand to place a <code>README.md</code> in the root of your source directory to build a custom styleguide index page.</p>
-
-<p>To have add a <strong>custom category wrapper</strong> like in the example, just add it before your category name with <code>space&gt;space</code> and before all the other categories in the same wrapper. This <code>name_scope</code> can be change in the <code>hologram_config.yml</code>. You will have something like this :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="cm">/*doc</span>
-<span class="cm">---</span>
-<span class="cm">title: My Title</span>
-<span class="cm">name: myname</span>
-<span class="cm">category: General &gt; Button</span>
-<span class="cm">---</span>
-
-<span class="cm">Some Markdown comment and markup...</span>
-
-<span class="cm">*/</span>
-</pre></div></div>
-<h2>Edition</h2>
-
-<p>To edit <strong>Cortana</strong> you will need <a href="bower.io">Bower</a>,  <a href="https://www.npmjs.org">npm</a> and <a href="http://nodejs.org/">NodeJS</a></p>
-
-<p>To setup the project :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">npm</span> <span class="n">install</span>
-<span class="err">$</span> <span class="n">bower</span> <span class="n">install</span>
-<span class="err">$</span> <span class="n">gulp</span>
-</pre></div></div>
-<h2>Dependencies</h2>
-
-<ul>
-<li><a href="https://github.com/jquery/jquery">jQuery</a></li>
-<li><a href="https://github.com/adchsm/Slidebars">Slidebars</a>, by adchsm</li>
-<li><a href="https://github.com/leafo/sticky-kit">Sticky-kit</a>, by leafo</li>
-<li><a href="https://github.com/twitter/typeahead.js">Typeahead.js</a>, by twitter</li>
-<li><a href="https://github.com/twitter/hogan.js">Hogan</a>, by twitter</li>
+<h1 id="a-list-group">List group</h1>
+<div class="codeExample"><div class="exampleOutput"><ul class="list-group">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
 </ul>
-      </div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-group&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Cras justo odio<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Dapibus ac facilisis in<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Morbi leo risus<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Porta ac consectetur ac<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Vestibulum at eros<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</pre></div></div></div>
+<h1 id="b-badge">Badge</h1>
+<div class="codeExample"><div class="exampleOutput"><ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">14</span>
+    Cras justo odio
+  </li>
+  <li class="list-group-item">
+    <span class="badge">2</span>
+    Dapibus ac facilisis in
+  </li>
+  <li class="list-group-item">
+    <span class="badge">1</span>
+    Morbi leo risus
+  </li>
+</ul>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-group&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;badge&quot;</span><span class="nt">&gt;</span>14<span class="nt">&lt;/span&gt;</span>
+    Cras justo odio
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;badge&quot;</span><span class="nt">&gt;</span>2<span class="nt">&lt;/span&gt;</span>
+    Dapibus ac facilisis in
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;badge&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/span&gt;</span>
+    Morbi leo risus
+  <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</pre></div></div></div>
+<h1 id="c-linked-item">Linked items</h1>
+<div class="codeExample"><div class="exampleOutput"><div class="list-group">
+  <a href="#" class="list-group-item active">
+    Cras justo odio
+  </a>
+  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+  <a href="#" class="list-group-item">Morbi leo risus</a>
+  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+  <a href="#" class="list-group-item">Vestibulum at eros</a>
+</div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;list-group&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item active&quot;</span><span class="nt">&gt;</span>
+    Cras justo odio
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Dapibus ac facilisis in<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Morbi leo risus<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Porta ac consectetur ac<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Vestibulum at eros<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div>
+<h1 id="e-custom-content">Custom content</h1>
+<div class="codeExample"><div class="exampleOutput"><div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Serpere anguiculos, nare anaticulas.</p>
+  </a>
+  <li href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Serpere anguiculos, nare anaticulas.</p>
+  </li>
+  <li href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Serpere anguiculos, nare anaticulas.</p>
+  </li>
+</div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;list-group&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item active&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">&quot;list-group-item-heading&quot;</span><span class="nt">&gt;</span>List group item heading<span class="nt">&lt;/h4&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;list-group-item-text&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Serpere anguiculos, nare anaticulas.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item active&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">&quot;list-group-item-heading&quot;</span><span class="nt">&gt;</span>List group item heading<span class="nt">&lt;/h4&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;list-group-item-text&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Serpere anguiculos, nare anaticulas.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;list-group-item active&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">&quot;list-group-item-heading&quot;</span><span class="nt">&gt;</span>List group item heading<span class="nt">&lt;/h4&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;list-group-item-text&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Serpere anguiculos, nare anaticulas.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div>      </div>
     </div>
 
     <footer class="cortana-footer">

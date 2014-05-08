@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title></title>
+    <title>Layout > Colors</title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="./theme-build/css/vendors.css">
@@ -145,7 +145,7 @@
       <nav class="cortana-nav">
         <ul>
           
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
           
         </ul>
         
@@ -468,7 +468,7 @@
             
               
               
-                <li><a href="layout_>_colors.html">Colors</a></li>
+                <li><a class="active" href="layout_>_colors.html">Colors</a></li>
               
             
           
@@ -554,7 +554,7 @@
 
     <header class="cortana-header sb-slide">
       
-        <h1>Styleguide home</h1>
+        <h1>Colors</h1>
       
       <div id="open-left" class="cortana-menu-btn">
         <span></span>
@@ -570,6 +570,14 @@
 
         <nav id="cortana-inside-nav" class="cortana-inside-nav">
           <ul>
+             
+              
+                <li><a href="#a-colors">Colors</a></li>
+              
+             
+              
+                <li><a href="#b-bootfalt-colors">Bootflat colors</a></li>
+              
             
           </ul>
         </nav>
@@ -579,81 +587,144 @@
 
 
 
-<h1>Cortana demo</h1>
+<h1 id="a-colors">Colors</h1>
 
-<blockquote>
-<p>This is a styleguide demo using <a href="https://github.com/Yago31/Cortana">Cortana</a>, a sexy <a href="https://github.com/trulia/hologram">Hologram</a> theme. The doc was based on the Twitter <a href="https://github.com/bootflat/bootflat.github.io">Bootstrap</a> components and the <a href="https://github.com/bootflat/bootflat.github.io">Bootflat</a> theme. You can find the starter kit on Github.</p>
-</blockquote>
+<div class="container-fluid">
+  <div class="row">
 
-<h2>Usage</h2>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#222;"><br><br><br><br><br></div>
+      <pre class="text-center">$gray-darker</pre>
+    </div>
 
-<p>To install the last version of <strong>Hologram</strong> (required) :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="err">@</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">:</span><span class="n">trulia</span><span class="o">/</span><span class="n">hologram</span><span class="p">.</span><span class="n">git</span>
-<span class="err">$</span> <span class="n">cd</span> <span class="n">hologram</span><span class="o">/</span>
-<span class="err">$</span> <span class="n">gem</span> <span class="n">build</span> <span class="n">hologram</span><span class="p">.</span><span class="n">gemspec</span>
-<span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">hologram</span><span class="o">-</span><span class="mf">1.0.1</span><span class="p">.</span><span class="n">gem</span>
-</pre></div></div>
-<p>To install <strong>Cortana</strong>, use Bower :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bower</span> <span class="n">install</span> <span class="o">--</span><span class="n">save</span><span class="o">-</span><span class="n">dev</span> <span class="n">Cortana</span>
-</pre></div></div>
-<p>Your <code>hologram_config.yml</code> should look like :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="cp"># Directory to parse</span>
-<span class="nl">source:</span> <span class="p">.</span><span class="o">/</span><span class="n">your</span><span class="o">-</span><span class="n">code</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#333;"><br><br><br><br><br></div>
+      <pre class="text-center">$gray-dark</pre>
+    </div>
 
-<span class="cp"># Directory to build the styleguide</span>
-<span class="nl">destination:</span> <span class="p">.</span><span class="o">/</span><span class="n">styleguide</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#555;"><br><br><br><br><br></div>
+      <pre class="text-center">$gray</pre>
+    </div>
 
-<span class="cp"># Hologram theme</span>
-<span class="nl">documentation_assets:</span> <span class="p">.</span><span class="o">/</span><span class="n">bower_components</span><span class="o">/</span><span class="n">Cortana</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#999;"><br><br><br><br><br></div>
+      <pre class="text-center">$gray-light</pre>
+    </div>
 
-<span class="cp"># To have a custom index page build with your README.md</span>
-<span class="nl">index:</span> <span class="n">README</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#eee;"><br><br><br><br><br></div>
+      <pre class="text-center">$gray-lighter</pre>
+    </div>
 
-<span class="cp"># List all css to include for the styleguide render examples (path from styleguide directory)</span>
-<span class="nl">css_include:</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">vendors</span><span class="p">.</span><span class="n">css</span><span class="err">&#39;</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">css</span><span class="o">/</span><span class="n">styles</span><span class="p">.</span><span class="n">css</span><span class="err">&#39;</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#428bca;"><br><br><br><br><br></div>
+      <pre class="text-center">$brand-primary</pre>
+    </div>
 
-<span class="cp"># List all js to include for the styleguide render examples (path from styleguide directory)</span>
-<span class="nl">js_include:</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="n">http</span><span class="o">:</span><span class="c1">//code.jquery.com/jquery-1.10.2.min.js&#39;</span>
-  <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">js</span><span class="o">/</span><span class="n">main</span><span class="p">.</span><span class="n">js</span><span class="err">&#39;</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#5cb85c;"><br><br><br><br><br></div>
+      <pre class="text-center">$brand-success</pre>
+    </div>
 
-<span class="cp"># String who is used to split the category name and create category wrapper</span>
-<span class="nl">name_scope:</span> <span class="err">&#39;</span> <span class="o">&gt;</span> <span class="err">&#39;</span>
-</pre></div></div>
-<p>We recomand to place a <code>README.md</code> in the root of your source directory to build a custom styleguide index page.</p>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#5bc0de;"><br><br><br><br><br></div>
+      <pre class="text-center">$brand-info</pre>
+    </div>
 
-<p>To have add a <strong>custom category wrapper</strong> like in the example, just add it before your category name with <code>space&gt;space</code> and before all the other categories in the same wrapper. This <code>name_scope</code> can be change in the <code>hologram_config.yml</code>. You will have something like this :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="cm">/*doc</span>
-<span class="cm">---</span>
-<span class="cm">title: My Title</span>
-<span class="cm">name: myname</span>
-<span class="cm">category: General &gt; Button</span>
-<span class="cm">---</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#f0ad4e;"><br><br><br><br><br></div>
+      <pre class="text-center">$brand-warning</pre>
+    </div>
 
-<span class="cm">Some Markdown comment and markup...</span>
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#d9534f;"><br><br><br><br><br></div>
+      <pre class="text-center">$brand-danger</pre>
+    </div>
 
-<span class="cm">*/</span>
-</pre></div></div>
-<h2>Edition</h2>
+  </div>
+</div>
 
-<p>To edit <strong>Cortana</strong> you will need <a href="bower.io">Bower</a>,  <a href="https://www.npmjs.org">npm</a> and <a href="http://nodejs.org/">NodeJS</a></p>
+<h1 id="b-bootfalt-colors">Bootflat colors</h1>
 
-<p>To setup the project :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">npm</span> <span class="n">install</span>
-<span class="err">$</span> <span class="n">bower</span> <span class="n">install</span>
-<span class="err">$</span> <span class="n">gulp</span>
-</pre></div></div>
-<h2>Dependencies</h2>
+<p>All the colors are in <code>-light</code> or <code>-dark</code> variant.</p>
 
-<ul>
-<li><a href="https://github.com/jquery/jquery">jQuery</a></li>
-<li><a href="https://github.com/adchsm/Slidebars">Slidebars</a>, by adchsm</li>
-<li><a href="https://github.com/leafo/sticky-kit">Sticky-kit</a>, by leafo</li>
-<li><a href="https://github.com/twitter/typeahead.js">Typeahead.js</a>, by twitter</li>
-<li><a href="https://github.com/twitter/hogan.js">Hogan</a>, by twitter</li>
-</ul>
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#5D9CEC;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#4A89DC;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$bluejeans</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#4FC1E9;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#3BAFDA;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$aqua</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#48CFAD;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#37BC9B;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$mint</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#A0D468;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#8CC152;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$grass</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#FFCE54;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#F6BB42;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$sunflower</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#FC6E51;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#E9573F;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$bittersweet</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#ED5565;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#DA4453;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$grapefruit</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#AC92EC;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#967ADC;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$lavender</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#EC87C0;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#D770AD;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$pinkrose</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#F5F7FA;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#E6E9ED;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$lightgray</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#CCD1D9;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#AAB2BD;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$mediumgray</pre>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div style="background:#656D78;width:50%;float:left;"><br><br><br><br><br></div>
+      <div style="background:#434A54;width:50%;float:left;"><br><br><br><br><br></div>
+      <pre class="text-center">$darkgray</pre>
+    </div>
+  </div>
+</div>
       </div>
     </div>
 
