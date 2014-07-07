@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html ng-app="cortana">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -12,19 +12,18 @@
 
     <!-- Source CSS -->
     
-      <link rel="stylesheet" href="vendors/bootstrap.min.css">
+      <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     
-      <link rel="stylesheet" href="vendors/bootflat.min.css">
+      <link rel="stylesheet" href="../bootflat/css/bootflat.css">
     
 
     <!--[if lt IE 9]>
       <script src="theme-build/polyfill/html5shiv.js"></script>
       <script src="theme-build/polyfill/respond.min.js"></script>
     <![endif]-->
-    
 </head>
 
-  <body class="cortana-body">
+  <body class="cortana-body"  ng-controller="MainController">
 
     <div class="sb-slidebar sb-left cortana-sidenav sb-style-push">
 
@@ -155,55 +154,15 @@
             
               
               
-                <li><a href="javascript_>_collapse.html">Collapse</a></li>
+                <li><a href="javascript_-_collapse.html">Collapse</a></li>
               
             
           
             
               
               
-                <li><a href="javascript_>_alert.html">Alert</a></li>
+                <li><a href="javascript_-_alert.html">Alert</a></li>
               
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="javascript_>_carousel.html">Carousel</a></li>
-              
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="javascript_>_dropdown.html">Dropdown</a></li>
-              
-            
-          
-            
-          
-            
-          
-            
-          
             
           
             
@@ -221,7 +180,47 @@
             
               
               
-                <li><a href="javascript_>_modal.html">Modal</a></li>
+                <li><a href="javascript_-_carousel.html">Carousel</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="javascript_-_dropdown.html">Dropdown</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="javascript_-_modal.html">Modal</a></li>
               
             
           
@@ -232,32 +231,21 @@
             
               
               
-                <li><a href="javascript_>_popover.html">Popover</a></li>
+                <li><a href="javascript_-_popover.html">Popover</a></li>
               
             
           
             
               
               
-                <li><a href="javascript_>_scrollspy.html">ScrollSpy</a></li>
+                <li><a href="javascript_-_scrollspy.html">ScrollSpy</a></li>
               
             
           
             
               
               
-                <li><a href="javascript_>_tabs.html">Tabs</a></li>
-              
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="javascript_>_tooltips.html">Tooltips</a></li>
+                <li><a href="javascript_-_tabs.html">Tabs</a></li>
               
             
           
@@ -268,7 +256,18 @@
             
               
               
-                <li><a href="javascript_>_buttons_js.html">Buttons JS</a></li>
+                <li><a href="javascript_-_tooltips.html">Tooltips</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="javascript_-_buttons_js.html">Buttons JS</a></li>
               
             
           
@@ -284,50 +283,21 @@
             
               
               
-                <li><a href="components_>_alerts.html">Alerts</a></li>
+                <li><a href="components_-_alerts.html">Alerts</a></li>
               
             
           
             
               
               
-                <li><a href="components_>_badges.html">Badges</a></li>
+                <li><a href="components_-_badges.html">Badges</a></li>
               
             
           
             
               
               
-                <li><a href="components_>_progress_bar.html">Progress bar</a></li>
-              
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="components_>_breadcrumb.html">Breadcrumb</a></li>
-              
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="components_>_pager.html">Pager</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_>_pagination.html">Pagination</a></li>
+                <li><a href="components_-_progress_bar.html">Progress bar</a></li>
               
             
           
@@ -336,66 +306,7 @@
             
               
               
-                <li><a href="components_>_button_groups.html">Button Groups</a></li>
-              
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="components_>_input_groups.html">Input groups</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_>_jumbotron.html">Jumbotron</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_>_labels.html">Labels</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_>_list_group.html">List group</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_>_media.html">Media</a></li>
-              
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="components_>_navbar.html">Navbar</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_>_panels.html">Panels</a></li>
+                <li><a href="components_-_breadcrumb.html">Breadcrumb</a></li>
               
             
           
@@ -408,7 +319,95 @@
             
               
               
-                <li><a href="components_>_thumbnails.html">Thumbnails</a></li>
+                <li><a href="components_-_pager.html">Pager</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_pagination.html">Pagination</a></li>
+              
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="components_-_button_groups.html">Button Groups</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="components_-_input_groups.html">Input groups</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_jumbotron.html">Jumbotron</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_labels.html">Labels</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_list_group.html">List group</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_media.html">Media</a></li>
+              
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="components_-_navbar.html">Navbar</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_panels.html">Panels</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="components_-_thumbnails.html">Thumbnails</a></li>
               
             
           
@@ -419,14 +418,14 @@
             
               
               
-                <li><a href="components_>_well.html">Well</a></li>
+                <li><a href="components_-_well.html">Well</a></li>
               
             
           
             
               
               
-                <li><a href="components_>_nav.html">Nav</a></li>
+                <li><a href="components_-_nav.html">Nav</a></li>
               
             
           
@@ -450,7 +449,7 @@
             
               
               
-                <li><a href="layout_>_tables.html">Tables</a></li>
+                <li><a href="layout_-_tables.html">Tables</a></li>
               
             
           
@@ -459,7 +458,7 @@
             
               
               
-                <li><a href="layout_>_buttons.html">Buttons</a></li>
+                <li><a href="layout_-_buttons.html">Buttons</a></li>
               
             
           
@@ -468,60 +467,8 @@
             
               
               
-                <li><a href="layout_>_colors.html">Colors</a></li>
+                <li><a href="layout_-_colors.html">Colors</a></li>
               
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a href="layout_>_icons.html">Icons</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="layout_>_images.html">Images</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="layout_>_code.html">Code</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="layout_>_form.html">Form</a></li>
-              
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
             
           
             
@@ -535,7 +482,59 @@
             
               
               
-                <li><a href="layout_>_typography.html">Typography</a></li>
+                <li><a href="layout_-_icons.html">Icons</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="layout_-_images.html">Images</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="layout_-_code.html">Code</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="layout_-_form.html">Form</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="layout_-_typography.html">Typography</a></li>
               
             
           
@@ -561,43 +560,42 @@
         <span></span>
         <span></span>
       </div>
-      <input id="cortana-search" class="cortana-search" type="text" placeholder="Search">
+      <div class="cortana-search-wrapper" ng-controller="TypeaheadCtrl">
+        <input id="cortana-search" type="text" class="form-control cortana-search" ng-model="customSelected" placeholder="Search" typeahead="data as data.title for data in searchData | filter:{title:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-on-select="onSelect($item, $model, $label)">
+      </div>
     </header>
 
     <div id="sb-site">
 
       <div class="cortana-container">
 
-        <nav id="cortana-inside-nav" class="cortana-inside-nav">
-          <ul>
+        <nav id="cortana-inside-nav" class="cortana-inside-nav" bs-affix>
+          <ul bs-scrollspy-list data-offset="-30">
             
           </ul>
         </nav>
 
         <div class="cortana-content-wrapper">
-          
+          <div class="cortana-content">
 
 
 
-<h1>Cortana demo</h1>
+<h1>Cortana : a sexy Hologram theme</h1>
 
 <blockquote>
-  <p>This is a styleguide demo using <a href="https://github.com/Yago31/Cortana">Cortana</a>, a sexy <a href="https://github.com/trulia/hologram">Hologram</a> theme. The doc was based on the Twitter <a href="https://github.com/bootflat/bootflat.github.io">Bootstrap</a> components and the <a href="https://github.com/bootflat/bootflat.github.io">Bootflat</a> theme. You can find the starter kit on <a href="https://github.com/Yago31/Holostrap">Github</a>.</p>
+<p>Cortana is a nice theme for Trulia&#39;s <a href="https://github.com/trulia/hologram">Hologram</a>, the ruby front-end doc generator, and inspired by PebbleRoad&#39;s <a href="https://github.com/PebbleRoad/tapestry">Tapestry</a>.</p>
 </blockquote>
 
 <h2>Usage</h2>
 
 <p>To install the last version of <strong>Hologram</strong> (required) :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="err">@</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">:</span><span class="n">trulia</span><span class="o">/</span><span class="n">hologram</span><span class="p">.</span><span class="n">git</span>
-<span class="err">$</span> <span class="n">cd</span> <span class="n">hologram</span><span class="o">/</span>
-<span class="err">$</span> <span class="n">gem</span> <span class="n">build</span> <span class="n">hologram</span><span class="p">.</span><span class="n">gemspec</span>
-<span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">hologram</span><span class="o">-</span><span class="mf">1.0.1</span><span class="p">.</span><span class="n">gem</span>
-</pre></div></div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">hologram</span>
+</pre></div></div><div class="cortana-content">
 <p>To install <strong>Cortana</strong>, use Bower :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bower</span> <span class="n">install</span> <span class="o">--</span><span class="n">save</span><span class="o">-</span><span class="n">dev</span> <span class="n">Cortana</span>
-</pre></div></div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bower</span> <span class="n">install</span> <span class="o">--</span><span class="n">save</span><span class="o">-</span><span class="n">dev</span> <span class="n">Cortana</span>
+</pre></div></div><div class="cortana-content">
 <p>Your <code>hologram_config.yml</code> should look like :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="cp"># Directory to parse</span>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="cp"># Directory to parse</span>
 <span class="nl">source:</span> <span class="p">.</span><span class="o">/</span><span class="n">your</span><span class="o">-</span><span class="n">code</span>
 
 <span class="cp"># Directory to build the styleguide</span>
@@ -605,6 +603,7 @@
 
 <span class="cp"># Hologram theme</span>
 <span class="nl">documentation_assets:</span> <span class="p">.</span><span class="o">/</span><span class="n">bower_components</span><span class="o">/</span><span class="n">Cortana</span>
+<span class="nl">custom_markdown:</span> <span class="p">.</span><span class="o">/</span><span class="n">bower_components</span><span class="o">/</span><span class="n">Cortana</span><span class="o">/</span><span class="n">CortanaMarkdownRenderer</span><span class="p">.</span><span class="n">rb</span>
 
 <span class="cp"># To have a custom index page build with your README.md</span>
 <span class="nl">index:</span> <span class="n">README</span>
@@ -620,40 +619,47 @@
   <span class="o">-</span> <span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="n">assets</span><span class="o">/</span><span class="n">js</span><span class="o">/</span><span class="n">main</span><span class="p">.</span><span class="n">js</span><span class="err">&#39;</span>
 
 <span class="cp"># String who is used to split the category name and create category wrapper</span>
-<span class="nl">name_scope:</span> <span class="err">&#39;</span> <span class="o">&gt;</span> <span class="err">&#39;</span>
-</pre></div></div>
+<span class="nl">name_scope:</span> <span class="err">&#39;</span> <span class="o">-</span> <span class="err">&#39;</span>
+</pre></div></div><div class="cortana-content">
 <p>We recomand to place a <code>README.md</code> in the root of your source directory to build a custom styleguide index page.</p>
 
-<p>To have add a <strong>custom category wrapper</strong> like in the example, just add it before your category name with <code>space&gt;space</code> and before all the other categories in the same wrapper. This <code>name_scope</code> can be change in the <code>hologram_config.yml</code>. You will have something like this :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="cm">/*doc</span>
+<p>To have add a <strong>custom category wrapper</strong> like in the example, just add it before your category name with <code>space-space</code> and before all the other categories in the same wrapper. This <code>name_scope</code> can be change in the <code>hologram_config.yml</code>. You will have something like this :</p>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="cm">/*doc</span>
 <span class="cm">---</span>
 <span class="cm">title: My Title</span>
 <span class="cm">name: myname</span>
-<span class="cm">category: General &gt; Button</span>
+<span class="cm">category: General - Button</span>
 <span class="cm">---</span>
 
 <span class="cm">Some Markdown comment and markup...</span>
 
 <span class="cm">*/</span>
-</pre></div></div>
+</pre></div></div><div class="cortana-content">
 <h2>Edition</h2>
 
 <p>To edit <strong>Cortana</strong> you will need <a href="bower.io">Bower</a>,  <a href="https://www.npmjs.org">npm</a> and <a href="http://nodejs.org/">NodeJS</a></p>
 
 <p>To setup the project :</p>
-<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">npm</span> <span class="n">install</span>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">npm</span> <span class="n">install</span>
 <span class="err">$</span> <span class="n">bower</span> <span class="n">install</span>
 <span class="err">$</span> <span class="n">gulp</span>
-</pre></div></div>
+</pre></div></div><div class="cortana-content">
+<h2>@TODO</h2>
+
+<ul>
+<li>Dark theme</li>
+</ul>
+
 <h2>Dependencies</h2>
 
 <ul>
 <li><a href="https://github.com/jquery/jquery">jQuery</a></li>
+<li><a href="https://github.com/angular/angular.js">Angular.js</a>, by Google</li>
+<li><a href="https://github.com/mgcrea/angular-strap">Angular-Strap</a>, by Mgcrea</li>
+<li><a href="https://github.com/angular-ui/bootstrap">AngularUI Bootstrap</a>, by AngularUI</li>
 <li><a href="https://github.com/adchsm/Slidebars">Slidebars</a>, by adchsm</li>
-<li><a href="https://github.com/leafo/sticky-kit">Sticky-kit</a>, by leafo</li>
-<li><a href="https://github.com/twitter/typeahead.js">Typeahead.js</a>, by twitter</li>
-<li><a href="https://github.com/twitter/hogan.js">Hogan</a>, by twitter</li>
 </ul>
+        </div>
       </div>
     </div>
 
@@ -665,1103 +671,991 @@
 
   <script src="theme-build/js/vendors.min.js"></script>
   <script type="text/javascript">
-      // avoid conflict with potential other jQuery loaded on the styleguide
-      var jQuery_no_conflict = $.noConflict(true);
+    var jQuery_no_conflict = $.noConflict(true);
   </script>
   <script src="theme-build/js/main.js"></script>
-  <script>
-    var searchData = 
-    [
-      
+  <script type="text/javascript">
+    function TypeaheadCtrl($scope) {
+      $scope.selected = undefined;
+      $scope.searchData = 
+      [
         
-      
-        
-          
-            
-            
-            {
-            "title": "Accordion",
-            "breadcrumb": "JavaScript > Collapse > Accordion",
-            "path": "javascript_>_collapse.html#a-accordion",
-            "tokens": ["JavaScript > Collapse","Accordion"]
-            },
-          
-            
-            
-            {
-            "title": "Collapse button",
-            "breadcrumb": "JavaScript > Collapse > Collapse button",
-            "path": "javascript_>_collapse.html#b-collapse-button",
-            "tokens": ["JavaScript > Collapse","Collapse button"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Alert message",
-            "breadcrumb": "JavaScript > Alert > Alert message",
-            "path": "javascript_>_alert.html#a-alert-message",
-            "tokens": ["JavaScript > Alert","Alert message"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Alerts",
-            "breadcrumb": "Components > Alerts > Alerts",
-            "path": "components_>_alerts.html#a-alerts",
-            "tokens": ["Components > Alerts","Alerts"]
-            },
-          
-            
-            
-            {
-            "title": "Dismissable alerts",
-            "breadcrumb": "Components > Alerts > Dismissable alerts",
-            "path": "components_>_alerts.html#b-dismissable-alerts",
-            "tokens": ["Components > Alerts","Dismissable alerts"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Default badge",
-            "breadcrumb": "Components > Badges > Default badge",
-            "path": "components_>_badges.html#a-badge",
-            "tokens": ["Components > Badges","Default badge"]
-            },
-          
-            
-            
-            {
-            "title": "Nav states",
-            "breadcrumb": "Components > Badges > Nav states",
-            "path": "components_>_badges.html#b-nav-states",
-            "tokens": ["Components > Badges","Nav states"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Basic progress bar",
-            "breadcrumb": "Components > Progress bar > Basic progress bar",
-            "path": "components_>_progress_bar.html#a-basic-bar",
-            "tokens": ["Components > Progress bar","Basic progress bar"]
-            },
-          
-            
-            
-            {
-            "title": "With label",
-            "breadcrumb": "Components > Progress bar > With label",
-            "path": "components_>_progress_bar.html#b-with-label",
-            "tokens": ["Components > Progress bar","With label"]
-            },
-          
-            
-            
-            {
-            "title": "Contextual",
-            "breadcrumb": "Components > Progress bar > Contextual",
-            "path": "components_>_progress_bar.html#c-contextual",
-            "tokens": ["Components > Progress bar","Contextual"]
-            },
-          
-            
-            
-            {
-            "title": "Striped",
-            "breadcrumb": "Components > Progress bar > Striped",
-            "path": "components_>_progress_bar.html#c-striped",
-            "tokens": ["Components > Progress bar","Striped"]
-            },
-          
-            
-            
-            {
-            "title": "Animated",
-            "breadcrumb": "Components > Progress bar > Animated",
-            "path": "components_>_progress_bar.html#d-animated",
-            "tokens": ["Components > Progress bar","Animated"]
-            },
-          
-            
-            
-            {
-            "title": "Stacked",
-            "breadcrumb": "Components > Progress bar > Stacked",
-            "path": "components_>_progress_bar.html#e-stacked",
-            "tokens": ["Components > Progress bar","Stacked"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Basic table",
-            "breadcrumb": "Layout > Tables > Basic table",
-            "path": "layout_>_tables.html#a-basic-table",
-            "tokens": ["Layout > Tables","Basic table"]
-            },
-          
-            
-            
-            {
-            "title": "Striped table",
-            "breadcrumb": "Layout > Tables > Striped table",
-            "path": "layout_>_tables.html#b-striped-table",
-            "tokens": ["Layout > Tables","Striped table"]
-            },
-          
-            
-            
-            {
-            "title": "Bordered table",
-            "breadcrumb": "Layout > Tables > Bordered table",
-            "path": "layout_>_tables.html#c-bordered-table",
-            "tokens": ["Layout > Tables","Bordered table"]
-            },
-          
-            
-            
-            {
-            "title": "Hover table",
-            "breadcrumb": "Layout > Tables > Hover table",
-            "path": "layout_>_tables.html#d-hover-table",
-            "tokens": ["Layout > Tables","Hover table"]
-            },
-          
-            
-            
-            {
-            "title": "Condensed table",
-            "breadcrumb": "Layout > Tables > Condensed table",
-            "path": "layout_>_tables.html#e-condensed-table",
-            "tokens": ["Layout > Tables","Condensed table"]
-            },
-          
-            
-            
-            {
-            "title": "Highlight table",
-            "breadcrumb": "Layout > Tables > Highlight table",
-            "path": "layout_>_tables.html#f-highlight-table",
-            "tokens": ["Layout > Tables","Highlight table"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Breadcrumb",
-            "breadcrumb": "Components > Breadcrumb > Breadcrumb",
-            "path": "components_>_breadcrumb.html#a-breadcrumb",
-            "tokens": ["Components > Breadcrumb","Breadcrumb"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Buttons",
-            "breadcrumb": "Layout > Buttons > Buttons",
-            "path": "layout_>_buttons.html#a-buttons",
-            "tokens": ["Layout > Buttons","Buttons"]
-            },
-          
-            
-            
-            {
-            "title": "Sizes",
-            "breadcrumb": "Layout > Buttons > Sizes",
-            "path": "layout_>_buttons.html#b-size",
-            "tokens": ["Layout > Buttons","Sizes"]
-            },
-          
-            
-            
-            {
-            "title": "Active / Disabled",
-            "breadcrumb": "Layout > Buttons > Active / Disabled",
-            "path": "layout_>_buttons.html#c-active-disabled",
-            "tokens": ["Layout > Buttons","Active / Disabled"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Carousel",
-            "breadcrumb": "JavaScript > Carousel > Carousel",
-            "path": "javascript_>_carousel.html#a-carousel",
-            "tokens": ["JavaScript > Carousel","Carousel"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Colors",
-            "breadcrumb": "Layout > Colors > Colors",
-            "path": "layout_>_colors.html#a-colors",
-            "tokens": ["Layout > Colors","Colors"]
-            },
-          
-            
-            
-            {
-            "title": "Bootflat colors",
-            "breadcrumb": "Layout > Colors > Bootflat colors",
-            "path": "layout_>_colors.html#b-bootfalt-colors",
-            "tokens": ["Layout > Colors","Bootflat colors"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Default pager",
-            "breadcrumb": "Components > Pager > Default pager",
-            "path": "components_>_pager.html#a-default-pager",
-            "tokens": ["Components > Pager","Default pager"]
-            },
-          
-            
-            
-            {
-            "title": "Align links",
-            "breadcrumb": "Components > Pager > Align links",
-            "path": "components_>_pager.html#b-align-link",
-            "tokens": ["Components > Pager","Align links"]
-            },
-          
-            
-            
-            {
-            "title": "Disabled",
-            "breadcrumb": "Components > Pager > Disabled",
-            "path": "components_>_pager.html#c-disabled",
-            "tokens": ["Components > Pager","Disabled"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Default pagination",
-            "breadcrumb": "Components > Pagination > Default pagination",
-            "path": "components_>_pagination.html#a-default-pagination",
-            "tokens": ["Components > Pagination","Default pagination"]
-            },
-          
-            
-            
-            {
-            "title": "Active - Disabled",
-            "breadcrumb": "Components > Pagination > Active - Disabled",
-            "path": "components_>_pagination.html#b-active-disabled",
-            "tokens": ["Components > Pagination","Active - Disabled"]
-            },
-          
-            
-            
-            {
-            "title": "Sizes",
-            "breadcrumb": "Components > Pagination > Sizes",
-            "path": "components_>_pagination.html#c-sizes",
-            "tokens": ["Components > Pagination","Sizes"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Dropdown button",
-            "breadcrumb": "JavaScript > Dropdown > Dropdown button",
-            "path": "javascript_>_dropdown.html#a-dropdown-button",
-            "tokens": ["JavaScript > Dropdown","Dropdown button"]
-            },
-          
-            
-            
-            {
-            "title": "Split dropdown button",
-            "breadcrumb": "JavaScript > Dropdown > Split dropdown button",
-            "path": "javascript_>_dropdown.html#b-split-dropdown-button",
-            "tokens": ["JavaScript > Dropdown","Split dropdown button"]
-            },
-          
-            
-            
-            {
-            "title": "Sizes",
-            "breadcrumb": "JavaScript > Dropdown > Sizes",
-            "path": "javascript_>_dropdown.html#c-size",
-            "tokens": ["JavaScript > Dropdown","Sizes"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Group",
-            "breadcrumb": "Components > Button Groups > Group",
-            "path": "components_>_button_groups.html#a-group",
-            "tokens": ["Components > Button Groups","Group"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Icons",
-            "breadcrumb": "Layout > Icons > Icons",
-            "path": "layout_>_icons.html#a-icons",
-            "tokens": ["Layout > Icons","Icons"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Images",
-            "breadcrumb": "Layout > Images > Images",
-            "path": "layout_>_images.html#a-images",
-            "tokens": ["Layout > Images","Images"]
-            },
-          
-            
-            
-            {
-            "title": "Figure",
-            "breadcrumb": "Layout > Images > Figure",
-            "path": "layout_>_images.html#b-figure",
-            "tokens": ["Layout > Images","Figure"]
-            },
-          
-            
-            
-            {
-            "title": "Images shapes",
-            "breadcrumb": "Layout > Images > Images shapes",
-            "path": "layout_>_images.html#c-images-shape",
-            "tokens": ["Layout > Images","Images shapes"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Inline code",
-            "breadcrumb": "Layout > Code > Inline code",
-            "path": "layout_>_code.html#a-inline-code",
-            "tokens": ["Layout > Code","Inline code"]
-            },
-          
-            
-            
-            {
-            "title": "User input",
-            "breadcrumb": "Layout > Code > User input",
-            "path": "layout_>_code.html#b-user-input",
-            "tokens": ["Layout > Code","User input"]
-            },
-          
-            
-            
-            {
-            "title": "Code block",
-            "breadcrumb": "Layout > Code > Code block",
-            "path": "layout_>_code.html#c-code-block",
-            "tokens": ["Layout > Code","Code block"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Input",
-            "breadcrumb": "Layout > Form > Input",
-            "path": "layout_>_form.html#a-input",
-            "tokens": ["Layout > Form","Input"]
-            },
-          
-            
-            
-            {
-            "title": "Textarea",
-            "breadcrumb": "Layout > Form > Textarea",
-            "path": "layout_>_form.html#a-textarea",
-            "tokens": ["Layout > Form","Textarea"]
-            },
-          
-            
-            
-            {
-            "title": "Checkboxes and radios",
-            "breadcrumb": "Layout > Form > Checkboxes and radios",
-            "path": "layout_>_form.html#b-checkbox-radio",
-            "tokens": ["Layout > Form","Checkboxes and radios"]
-            },
-          
-            
-            
-            {
-            "title": "Inline checkboxes",
-            "breadcrumb": "Layout > Form > Inline checkboxes",
-            "path": "layout_>_form.html#c-inline-checkbox",
-            "tokens": ["Layout > Form","Inline checkboxes"]
-            },
-          
-            
-            
-            {
-            "title": "Selects",
-            "breadcrumb": "Layout > Form > Selects",
-            "path": "layout_>_form.html#d-select",
-            "tokens": ["Layout > Form","Selects"]
-            },
-          
-            
-            
-            {
-            "title": "Static control",
-            "breadcrumb": "Layout > Form > Static control",
-            "path": "layout_>_form.html#e-static",
-            "tokens": ["Layout > Form","Static control"]
-            },
-          
-            
-            
-            {
-            "title": "Basic form",
-            "breadcrumb": "Layout > Form > Basic form",
-            "path": "layout_>_form.html#i-basic-form",
-            "tokens": ["Layout > Form","Basic form"]
-            },
-          
-            
-            
-            {
-            "title": "Inline form",
-            "breadcrumb": "Layout > Form > Inline form",
-            "path": "layout_>_form.html#j-inline-form",
-            "tokens": ["Layout > Form","Inline form"]
-            },
-          
-            
-            
-            {
-            "title": "Horizontal form",
-            "breadcrumb": "Layout > Form > Horizontal form",
-            "path": "layout_>_form.html#k-horizontal-form",
-            "tokens": ["Layout > Form","Horizontal form"]
-            },
-          
-            
-            
-            {
-            "title": "Validations",
-            "breadcrumb": "Layout > Form > Validations",
-            "path": "layout_>_form.html#l-validation",
-            "tokens": ["Layout > Form","Validations"]
-            },
           
         
-      
-        
-          
-            
-            
-            {
-            "title": "Input groups",
-            "breadcrumb": "Components > Input groups > Input groups",
-            "path": "components_>_input_groups.html#a-input-groups",
-            "tokens": ["Components > Input groups","Input groups"]
-            },
-          
-            
-            
-            {
-            "title": "Checkbox-Radio addon",
-            "breadcrumb": "Components > Input groups > Checkbox-Radio addon",
-            "path": "components_>_input_groups.html#d-checkbox-addon",
-            "tokens": ["Components > Input groups","Checkbox-Radio addon"]
-            },
           
             
+              
+              
+              {
+              "title": "Accordion",
+              "breadcrumb": "JavaScript - Collapse > Accordion",
+              "path": "javascript_-_collapse.html#a-accordion"
+              },
             
-            {
-            "title": "Button addon",
-            "breadcrumb": "Components > Input groups > Button addon",
-            "path": "components_>_input_groups.html#e-button-addon",
-            "tokens": ["Components > Input groups","Button addon"]
-            },
-          
+              
+              
+              {
+              "title": "Collapse button",
+              "breadcrumb": "JavaScript - Collapse > Collapse button",
+              "path": "javascript_-_collapse.html#b-collapse-button"
+              },
             
-            
-            {
-            "title": "Dropdown addon",
-            "breadcrumb": "Components > Input groups > Dropdown addon",
-            "path": "components_>_input_groups.html#f-dropdown-addon",
-            "tokens": ["Components > Input groups","Dropdown addon"]
-            },
           
-        
-      
         
           
             
+              
+              
+              {
+              "title": "Alert message",
+              "breadcrumb": "JavaScript - Alert > Alert message",
+              "path": "javascript_-_alert.html#a-alert-message"
+              },
             
-            {
-            "title": "Jumbotron",
-            "breadcrumb": "Components > Jumbotron > Jumbotron",
-            "path": "components_>_jumbotron.html#a-jumbotron",
-            "tokens": ["Components > Jumbotron","Jumbotron"]
-            },
           
         
-      
-        
           
-            
             
-            {
-            "title": "Default label",
-            "breadcrumb": "Components > Labels > Default label",
-            "path": "components_>_labels.html#a-labels",
-            "tokens": ["Components > Labels","Default label"]
-            },
-          
+              
+              
+              {
+              "title": "Alerts",
+              "breadcrumb": "Components - Alerts > Alerts",
+              "path": "components_-_alerts.html#a-alerts"
+              },
             
+              
+              
+              {
+              "title": "Dismissable alerts",
+              "breadcrumb": "Components - Alerts > Dismissable alerts",
+              "path": "components_-_alerts.html#b-dismissable-alerts"
+              },
             
-            {
-            "title": "Variations",
-            "breadcrumb": "Components > Labels > Variations",
-            "path": "components_>_labels.html#b-variations",
-            "tokens": ["Components > Labels","Variations"]
-            },
           
         
-      
-        
-          
-            
-            
-            {
-            "title": "List group",
-            "breadcrumb": "Components > List group > List group",
-            "path": "components_>_list_group.html#a-list-group",
-            "tokens": ["Components > List group","List group"]
-            },
-          
-            
-            
-            {
-            "title": "Badge",
-            "breadcrumb": "Components > List group > Badge",
-            "path": "components_>_list_group.html#b-badge",
-            "tokens": ["Components > List group","Badge"]
-            },
           
             
+              
+              
+              {
+              "title": "Default badge",
+              "breadcrumb": "Components - Badges > Default badge",
+              "path": "components_-_badges.html#a-badge"
+              },
+            
+              
+              
+              {
+              "title": "Nav states",
+              "breadcrumb": "Components - Badges > Nav states",
+              "path": "components_-_badges.html#b-nav-states"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Basic progress bar",
+              "breadcrumb": "Components - Progress bar > Basic progress bar",
+              "path": "components_-_progress_bar.html#a-basic-bar"
+              },
             
-            {
-            "title": "Linked items",
-            "breadcrumb": "Components > List group > Linked items",
-            "path": "components_>_list_group.html#c-linked-item",
-            "tokens": ["Components > List group","Linked items"]
-            },
-          
-            
-            
-            {
-            "title": "Custom content",
-            "breadcrumb": "Components > List group > Custom content",
-            "path": "components_>_list_group.html#e-custom-content",
-            "tokens": ["Components > List group","Custom content"]
-            },
-          
-        
-      
-        
-          
+              
+              
+              {
+              "title": "With label",
+              "breadcrumb": "Components - Progress bar > With label",
+              "path": "components_-_progress_bar.html#b-with-label"
+              },
             
+              
+              
+              {
+              "title": "Contextual",
+              "breadcrumb": "Components - Progress bar > Contextual",
+              "path": "components_-_progress_bar.html#c-contextual"
+              },
+            
+              
+              
+              {
+              "title": "Striped",
+              "breadcrumb": "Components - Progress bar > Striped",
+              "path": "components_-_progress_bar.html#c-striped"
+              },
+            
+              
+              
+              {
+              "title": "Animated",
+              "breadcrumb": "Components - Progress bar > Animated",
+              "path": "components_-_progress_bar.html#d-animated"
+              },
+            
+              
+              
+              {
+              "title": "Stacked",
+              "breadcrumb": "Components - Progress bar > Stacked",
+              "path": "components_-_progress_bar.html#e-stacked"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Basic table",
+              "breadcrumb": "Layout - Tables > Basic table",
+              "path": "layout_-_tables.html#a-basic-table"
+              },
+            
+              
+              
+              {
+              "title": "Striped table",
+              "breadcrumb": "Layout - Tables > Striped table",
+              "path": "layout_-_tables.html#b-striped-table"
+              },
+            
+              
+              
+              {
+              "title": "Bordered table",
+              "breadcrumb": "Layout - Tables > Bordered table",
+              "path": "layout_-_tables.html#c-bordered-table"
+              },
             
-            {
-            "title": "Default media",
-            "breadcrumb": "Components > Media > Default media",
-            "path": "components_>_media.html#a-media",
-            "tokens": ["Components > Media","Default media"]
-            },
+              
+              
+              {
+              "title": "Hover table",
+              "breadcrumb": "Layout - Tables > Hover table",
+              "path": "layout_-_tables.html#d-hover-table"
+              },
+            
+              
+              
+              {
+              "title": "Condensed table",
+              "breadcrumb": "Layout - Tables > Condensed table",
+              "path": "layout_-_tables.html#e-condensed-table"
+              },
+            
+              
+              
+              {
+              "title": "Highlight table",
+              "breadcrumb": "Layout - Tables > Highlight table",
+              "path": "layout_-_tables.html#f-highlight-table"
+              },
+            
+          
+        
           
             
-            
-            {
-            "title": "Media list",
-            "breadcrumb": "Components > Media > Media list",
-            "path": "components_>_media.html#b-media-list",
-            "tokens": ["Components > Media","Media list"]
-            },
+              
+              
+              {
+              "title": "Breadcrumb",
+              "breadcrumb": "Components - Breadcrumb > Breadcrumb",
+              "path": "components_-_breadcrumb.html#a-breadcrumb"
+              },
+            
           
         
-      
-        
-          
-            
-            
-            {
-            "title": "Modal",
-            "breadcrumb": "JavaScript > Modal > Modal",
-            "path": "javascript_>_modal.html#a-modal",
-            "tokens": ["JavaScript > Modal","Modal"]
-            },
           
-            
+            
+              
+              
+              {
+              "title": "Buttons",
+              "breadcrumb": "Layout - Buttons > Buttons",
+              "path": "layout_-_buttons.html#a-buttons"
+              },
+            
+              
+              
+              {
+              "title": "Sizes",
+              "breadcrumb": "Layout - Buttons > Sizes",
+              "path": "layout_-_buttons.html#b-size"
+              },
             
-            {
-            "title": "Sizes",
-            "breadcrumb": "JavaScript > Modal > Sizes",
-            "path": "javascript_>_modal.html#b-sizes",
-            "tokens": ["JavaScript > Modal","Sizes"]
-            },
+              
+              
+              {
+              "title": "Active / Disabled",
+              "breadcrumb": "Layout - Buttons > Active / Disabled",
+              "path": "layout_-_buttons.html#c-active-disabled"
+              },
+            
           
         
-      
-        
-          
-            
-            
-            {
-            "title": "Navbar",
-            "breadcrumb": "Components > Navbar > Navbar",
-            "path": "components_>_navbar.html#a-navbar",
-            "tokens": ["Components > Navbar","Navbar"]
-            },
-          
-            
-            
-            {
-            "title": "Inverted navbar",
-            "breadcrumb": "Components > Navbar > Inverted navbar",
-            "path": "components_>_navbar.html#b-inverted-navbar",
-            "tokens": ["Components > Navbar","Inverted navbar"]
-            },
-          
-            
-            
-            {
-            "title": "Form",
-            "breadcrumb": "Components > Navbar > Form",
-            "path": "components_>_navbar.html#c-form",
-            "tokens": ["Components > Navbar","Form"]
-            },
-          
-            
-            
-            {
-            "title": "Text",
-            "breadcrumb": "Components > Navbar > Text",
-            "path": "components_>_navbar.html#d-text",
-            "tokens": ["Components > Navbar","Text"]
-            },
           
+            
+              
+              
+              {
+              "title": "Carousel",
+              "breadcrumb": "JavaScript - Carousel > Carousel",
+              "path": "javascript_-_carousel.html#a-carousel"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Colors",
+              "breadcrumb": "Layout - Colors > Colors",
+              "path": "layout_-_colors.html#a-colors"
+              },
             
+              
+              
+              {
+              "title": "Bootflat colors",
+              "breadcrumb": "Layout - Colors > Bootflat colors",
+              "path": "layout_-_colors.html#b-bootfalt-colors"
+              },
             
-            {
-            "title": "Dropdown",
-            "breadcrumb": "Components > Navbar > Dropdown",
-            "path": "components_>_navbar.html#e-dropdown",
-            "tokens": ["Components > Navbar","Dropdown"]
-            },
           
         
-      
-        
-          
-            
-            
-            {
-            "title": "Basic panel",
-            "breadcrumb": "Components > Panels > Basic panel",
-            "path": "components_>_panels.html#a-panel",
-            "tokens": ["Components > Panels","Basic panel"]
-            },
-          
-            
-            
-            {
-            "title": "Panel with heading",
-            "breadcrumb": "Components > Panels > Panel with heading",
-            "path": "components_>_panels.html#b-panel-heading",
-            "tokens": ["Components > Panels","Panel with heading"]
-            },
-          
-            
-            
-            {
-            "title": "Panel with footer",
-            "breadcrumb": "Components > Panels > Panel with footer",
-            "path": "components_>_panels.html#c-panel-footer",
-            "tokens": ["Components > Panels","Panel with footer"]
-            },
           
             
+              
+              
+              {
+              "title": "Default pager",
+              "breadcrumb": "Components - Pager > Default pager",
+              "path": "components_-_pager.html#a-default-pager"
+              },
             
-            {
-            "title": "Contextual",
-            "breadcrumb": "Components > Panels > Contextual",
-            "path": "components_>_panels.html#d-contextual",
-            "tokens": ["Components > Panels","Contextual"]
-            },
-          
-            
-            
-            {
-            "title": "Panel with table",
-            "breadcrumb": "Components > Panels > Panel with table",
-            "path": "components_>_panels.html#e-panel-table",
-            "tokens": ["Components > Panels","Panel with table"]
-            },
-          
-            
-            
-            {
-            "title": "Panel with list",
-            "breadcrumb": "Components > Panels > Panel with list",
-            "path": "components_>_panels.html#f-panel-list",
-            "tokens": ["Components > Panels","Panel with list"]
-            },
-          
-        
-      
-        
-          
+              
+              
+              {
+              "title": "Align links",
+              "breadcrumb": "Components - Pager > Align links",
+              "path": "components_-_pager.html#b-align-link"
+              },
             
+              
+              
+              {
+              "title": "Disabled",
+              "breadcrumb": "Components - Pager > Disabled",
+              "path": "components_-_pager.html#c-disabled"
+              },
             
-            {
-            "title": "Popover",
-            "breadcrumb": "JavaScript > Popover > Popover",
-            "path": "javascript_>_popover.html#a-popover",
-            "tokens": ["JavaScript > Popover","Popover"]
-            },
           
         
-      
-        
           
             
+              
+              
+              {
+              "title": "Default pagination",
+              "breadcrumb": "Components - Pagination > Default pagination",
+              "path": "components_-_pagination.html#a-default-pagination"
+              },
             
-            {
-            "title": "ScrollSpy",
-            "breadcrumb": "JavaScript > ScrollSpy > ScrollSpy",
-            "path": "javascript_>_scrollspy.html#a-scrollspy",
-            "tokens": ["JavaScript > ScrollSpy","ScrollSpy"]
-            },
-          
-        
-      
-        
-          
+              
+              
+              {
+              "title": "Active - Disabled",
+              "breadcrumb": "Components - Pagination > Active - Disabled",
+              "path": "components_-_pagination.html#b-active-disabled"
+              },
             
+              
+              
+              {
+              "title": "Sizes",
+              "breadcrumb": "Components - Pagination > Sizes",
+              "path": "components_-_pagination.html#c-sizes"
+              },
             
-            {
-            "title": "Tabs",
-            "breadcrumb": "JavaScript > Tabs > Tabs",
-            "path": "javascript_>_tabs.html#a-tabs",
-            "tokens": ["JavaScript > Tabs","Tabs"]
-            },
           
         
-      
-        
           
             
+              
+              
+              {
+              "title": "Dropdown button",
+              "breadcrumb": "JavaScript - Dropdown > Dropdown button",
+              "path": "javascript_-_dropdown.html#a-dropdown-button"
+              },
             
-            {
-            "title": "Default thumbnail",
-            "breadcrumb": "Components > Thumbnails > Default thumbnail",
-            "path": "components_>_thumbnails.html#a-thumbnail",
-            "tokens": ["Components > Thumbnails","Default thumbnail"]
-            },
-          
+              
+              
+              {
+              "title": "Split dropdown button",
+              "breadcrumb": "JavaScript - Dropdown > Split dropdown button",
+              "path": "javascript_-_dropdown.html#b-split-dropdown-button"
+              },
             
+              
+              
+              {
+              "title": "Sizes",
+              "breadcrumb": "JavaScript - Dropdown > Sizes",
+              "path": "javascript_-_dropdown.html#c-size"
+              },
             
-            {
-            "title": "Custom content",
-            "breadcrumb": "Components > Thumbnails > Custom content",
-            "path": "components_>_thumbnails.html#b-custom-content",
-            "tokens": ["Components > Thumbnails","Custom content"]
-            },
           
-        
-      
         
-          
-            
-            
-            {
-            "title": "Titles",
-            "breadcrumb": "Layout > Typography > Titles",
-            "path": "layout_>_typography.html#a-titles",
-            "tokens": ["Layout > Typography","Titles"]
-            },
           
             
+              
+              
+              {
+              "title": "Group",
+              "breadcrumb": "Components - Button Groups > Group",
+              "path": "components_-_button_groups.html#a-group"
+              },
             
-            {
-            "title": "Lead",
-            "breadcrumb": "Layout > Typography > Lead",
-            "path": "layout_>_typography.html#b-lead",
-            "tokens": ["Layout > Typography","Lead"]
-            },
           
-            
-            
-            {
-            "title": "Paragraphs",
-            "breadcrumb": "Layout > Typography > Paragraphs",
-            "path": "layout_>_typography.html#c-paragraphs",
-            "tokens": ["Layout > Typography","Paragraphs"]
-            },
-          
-            
-            
-            {
-            "title": "Contextual color",
-            "breadcrumb": "Layout > Typography > Contextual color",
-            "path": "layout_>_typography.html#d-context-color",
-            "tokens": ["Layout > Typography","Contextual color"]
-            },
-          
-            
-            
-            {
-            "title": "Contextual background",
-            "breadcrumb": "Layout > Typography > Contextual background",
-            "path": "layout_>_typography.html#e-context-background",
-            "tokens": ["Layout > Typography","Contextual background"]
-            },
-          
-            
-            
-            {
-            "title": "Blockquote",
-            "breadcrumb": "Layout > Typography > Blockquote",
-            "path": "layout_>_typography.html#f-blockquote",
-            "tokens": ["Layout > Typography","Blockquote"]
-            },
-          
-            
-            
-            {
-            "title": "Small",
-            "breadcrumb": "Layout > Typography > Small",
-            "path": "layout_>_typography.html#g-small",
-            "tokens": ["Layout > Typography","Small"]
-            },
-          
-            
-            
-            {
-            "title": "Text elements",
-            "breadcrumb": "Layout > Typography > Text elements",
-            "path": "layout_>_typography.html#h-text-element",
-            "tokens": ["Layout > Typography","Text elements"]
-            },
-          
-            
-            
-            {
-            "title": "Address",
-            "breadcrumb": "Layout > Typography > Address",
-            "path": "layout_>_typography.html#i-address",
-            "tokens": ["Layout > Typography","Address"]
-            },
-          
-            
-            
-            {
-            "title": "List",
-            "breadcrumb": "Layout > Typography > List",
-            "path": "layout_>_typography.html#j-list",
-            "tokens": ["Layout > Typography","List"]
-            },
-          
-            
-            
-            {
-            "title": "Description",
-            "breadcrumb": "Layout > Typography > Description",
-            "path": "layout_>_typography.html#k-description",
-            "tokens": ["Layout > Typography","Description"]
-            },
-          
-        
-      
         
           
             
-            
-            {
-            "title": "Tooltips",
-            "breadcrumb": "JavaScript > Tooltips > Tooltips",
-            "path": "javascript_>_tooltips.html#a-tooltips",
-            "tokens": ["JavaScript > Tooltips","Tooltips"]
-            },
+              
+              
+              {
+              "title": "Icons",
+              "breadcrumb": "Layout - Icons > Icons",
+              "path": "layout_-_icons.html#a-icons"
+              },
+            
           
         
-      
-        
           
-            
+            
+              
+              
+              {
+              "title": "Images",
+              "breadcrumb": "Layout - Images > Images",
+              "path": "layout_-_images.html#a-images"
+              },
+            
+              
+              
+              {
+              "title": "Figure",
+              "breadcrumb": "Layout - Images > Figure",
+              "path": "layout_-_images.html#b-figure"
+              },
+            
+              
+              
+              {
+              "title": "Images shapes",
+              "breadcrumb": "Layout - Images > Images shapes",
+              "path": "layout_-_images.html#c-images-shape"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Inline code",
+              "breadcrumb": "Layout - Code > Inline code",
+              "path": "layout_-_code.html#a-inline-code"
+              },
+            
+              
+              
+              {
+              "title": "User input",
+              "breadcrumb": "Layout - Code > User input",
+              "path": "layout_-_code.html#b-user-input"
+              },
+            
+              
+              
+              {
+              "title": "Code block",
+              "breadcrumb": "Layout - Code > Code block",
+              "path": "layout_-_code.html#c-code-block"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Input",
+              "breadcrumb": "Layout - Form > Input",
+              "path": "layout_-_form.html#a-input"
+              },
+            
+              
+              
+              {
+              "title": "Textarea",
+              "breadcrumb": "Layout - Form > Textarea",
+              "path": "layout_-_form.html#a-textarea"
+              },
+            
+              
+              
+              {
+              "title": "Checkboxes and radios",
+              "breadcrumb": "Layout - Form > Checkboxes and radios",
+              "path": "layout_-_form.html#b-checkbox-radio"
+              },
+            
+              
+              
+              {
+              "title": "Inline checkboxes",
+              "breadcrumb": "Layout - Form > Inline checkboxes",
+              "path": "layout_-_form.html#c-inline-checkbox"
+              },
+            
+              
+              
+              {
+              "title": "Selects",
+              "breadcrumb": "Layout - Form > Selects",
+              "path": "layout_-_form.html#d-select"
+              },
+            
+              
+              
+              {
+              "title": "Static control",
+              "breadcrumb": "Layout - Form > Static control",
+              "path": "layout_-_form.html#e-static"
+              },
+            
+              
+              
+              {
+              "title": "Basic form",
+              "breadcrumb": "Layout - Form > Basic form",
+              "path": "layout_-_form.html#i-basic-form"
+              },
+            
+              
+              
+              {
+              "title": "Inline form",
+              "breadcrumb": "Layout - Form > Inline form",
+              "path": "layout_-_form.html#j-inline-form"
+              },
+            
+              
+              
+              {
+              "title": "Horizontal form",
+              "breadcrumb": "Layout - Form > Horizontal form",
+              "path": "layout_-_form.html#k-horizontal-form"
+              },
+            
+              
+              
+              {
+              "title": "Validations",
+              "breadcrumb": "Layout - Form > Validations",
+              "path": "layout_-_form.html#l-validation"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Input groups",
+              "breadcrumb": "Components - Input groups > Input groups",
+              "path": "components_-_input_groups.html#a-input-groups"
+              },
+            
+              
+              
+              {
+              "title": "Checkbox-Radio addon",
+              "breadcrumb": "Components - Input groups > Checkbox-Radio addon",
+              "path": "components_-_input_groups.html#d-checkbox-addon"
+              },
+            
+              
+              
+              {
+              "title": "Button addon",
+              "breadcrumb": "Components - Input groups > Button addon",
+              "path": "components_-_input_groups.html#e-button-addon"
+              },
+            
+              
+              
+              {
+              "title": "Dropdown addon",
+              "breadcrumb": "Components - Input groups > Dropdown addon",
+              "path": "components_-_input_groups.html#f-dropdown-addon"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Jumbotron",
+              "breadcrumb": "Components - Jumbotron > Jumbotron",
+              "path": "components_-_jumbotron.html#a-jumbotron"
+              },
             
-            {
-            "title": "Default well",
-            "breadcrumb": "Components > Well > Default well",
-            "path": "components_>_well.html#a-well",
-            "tokens": ["Components > Well","Default well"]
-            },
           
         
-      
-        
           
-            
             
-            {
-            "title": "Pills",
-            "breadcrumb": "Components > Nav > Pills",
-            "path": "components_>_nav.html#b-pills",
-            "tokens": ["Components > Nav","Pills"]
-            },
-          
+              
+              
+              {
+              "title": "Default label",
+              "breadcrumb": "Components - Labels > Default label",
+              "path": "components_-_labels.html#a-labels"
+              },
+            
+              
+              
+              {
+              "title": "Variations",
+              "breadcrumb": "Components - Labels > Variations",
+              "path": "components_-_labels.html#b-variations"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "List group",
+              "breadcrumb": "Components - List group > List group",
+              "path": "components_-_list_group.html#a-list-group"
+              },
+            
+              
+              
+              {
+              "title": "Badge",
+              "breadcrumb": "Components - List group > Badge",
+              "path": "components_-_list_group.html#b-badge"
+              },
+            
+              
+              
+              {
+              "title": "Linked items",
+              "breadcrumb": "Components - List group > Linked items",
+              "path": "components_-_list_group.html#c-linked-item"
+              },
+            
+              
+              
+              {
+              "title": "Custom content",
+              "breadcrumb": "Components - List group > Custom content",
+              "path": "components_-_list_group.html#e-custom-content"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Default media",
+              "breadcrumb": "Components - Media > Default media",
+              "path": "components_-_media.html#a-media"
+              },
+            
+              
+              
+              {
+              "title": "Media list",
+              "breadcrumb": "Components - Media > Media list",
+              "path": "components_-_media.html#b-media-list"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Modal",
+              "breadcrumb": "JavaScript - Modal > Modal",
+              "path": "javascript_-_modal.html#a-modal"
+              },
+            
+              
+              
+              {
+              "title": "Sizes",
+              "breadcrumb": "JavaScript - Modal > Sizes",
+              "path": "javascript_-_modal.html#b-sizes"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Navbar",
+              "breadcrumb": "Components - Navbar > Navbar",
+              "path": "components_-_navbar.html#a-navbar"
+              },
+            
+              
+              
+              {
+              "title": "Inverted navbar",
+              "breadcrumb": "Components - Navbar > Inverted navbar",
+              "path": "components_-_navbar.html#b-inverted-navbar"
+              },
+            
+              
+              
+              {
+              "title": "Form",
+              "breadcrumb": "Components - Navbar > Form",
+              "path": "components_-_navbar.html#c-form"
+              },
+            
+              
+              
+              {
+              "title": "Text",
+              "breadcrumb": "Components - Navbar > Text",
+              "path": "components_-_navbar.html#d-text"
+              },
             
+              
+              
+              {
+              "title": "Dropdown",
+              "breadcrumb": "Components - Navbar > Dropdown",
+              "path": "components_-_navbar.html#e-dropdown"
+              },
             
-            {
-            "title": "With dropdown",
-            "breadcrumb": "Components > Nav > With dropdown",
-            "path": "components_>_nav.html#c-with-dropdown",
-            "tokens": ["Components > Nav","With dropdown"]
-            },
           
         
-      
-        
-          
-            
-            
-            {
-            "title": "Single toggle",
-            "breadcrumb": "JavaScript > Buttons JS > Single toggle",
-            "path": "javascript_>_buttons_js.html#b-single-toggle",
-            "tokens": ["JavaScript > Buttons JS","Single toggle"]
-            },
           
             
+              
+              
+              {
+              "title": "Basic panel",
+              "breadcrumb": "Components - Panels > Basic panel",
+              "path": "components_-_panels.html#a-panel"
+              },
             
-            {
-            "title": "Checkbox",
-            "breadcrumb": "JavaScript > Buttons JS > Checkbox",
-            "path": "javascript_>_buttons_js.html#c-checkbox",
-            "tokens": ["JavaScript > Buttons JS","Checkbox"]
-            },
-          
+              
+              
+              {
+              "title": "Panel with heading",
+              "breadcrumb": "Components - Panels > Panel with heading",
+              "path": "components_-_panels.html#b-panel-heading"
+              },
             
+              
+              
+              {
+              "title": "Panel with footer",
+              "breadcrumb": "Components - Panels > Panel with footer",
+              "path": "components_-_panels.html#c-panel-footer"
+              },
             
-            {
-            "title": "Radio",
-            "breadcrumb": "JavaScript > Buttons JS > Radio",
-            "path": "javascript_>_buttons_js.html#d-radio",
-            "tokens": ["JavaScript > Buttons JS","Radio"]
-            },
-          
-        
-      
-        
-      
-    {}];
-
-    (function($) {
-      $('#cortana-search').typeahead({
-        name: 'cortana_search',
-        local: searchData,
-        template: [
-          '<a href="{{path}}">',
-          '<p class="cortana-search-title">{{title}}</p>',
-          '<p class="cortana-search-path">{{breadcrumb}}</p>',
-          '</a>'
-        ].join(''),
-        updater: function () {
-          /* navigate to the selected item */
-          alert('ok');
-        },
-        engine: Hogan
-      }).on('typeahead:selected', function(event, data) {
-        window.location.replace(data.path);
-      });
-    }) (jQuery_no_conflict);
+              
+              
+              {
+              "title": "Contextual",
+              "breadcrumb": "Components - Panels > Contextual",
+              "path": "components_-_panels.html#d-contextual"
+              },
+            
+              
+              
+              {
+              "title": "Panel with table",
+              "breadcrumb": "Components - Panels > Panel with table",
+              "path": "components_-_panels.html#e-panel-table"
+              },
+            
+              
+              
+              {
+              "title": "Panel with list",
+              "breadcrumb": "Components - Panels > Panel with list",
+              "path": "components_-_panels.html#f-panel-list"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Popover",
+              "breadcrumb": "JavaScript - Popover > Popover",
+              "path": "javascript_-_popover.html#a-popover"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "ScrollSpy",
+              "breadcrumb": "JavaScript - ScrollSpy > ScrollSpy",
+              "path": "javascript_-_scrollspy.html#a-scrollspy"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Tabs",
+              "breadcrumb": "JavaScript - Tabs > Tabs",
+              "path": "javascript_-_tabs.html#a-tabs"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Default thumbnail",
+              "breadcrumb": "Components - Thumbnails > Default thumbnail",
+              "path": "components_-_thumbnails.html#a-thumbnail"
+              },
+            
+              
+              
+              {
+              "title": "Custom content",
+              "breadcrumb": "Components - Thumbnails > Custom content",
+              "path": "components_-_thumbnails.html#b-custom-content"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Titles",
+              "breadcrumb": "Layout - Typography > Titles",
+              "path": "layout_-_typography.html#a-titles"
+              },
+            
+              
+              
+              {
+              "title": "Lead",
+              "breadcrumb": "Layout - Typography > Lead",
+              "path": "layout_-_typography.html#b-lead"
+              },
+            
+              
+              
+              {
+              "title": "Paragraphs",
+              "breadcrumb": "Layout - Typography > Paragraphs",
+              "path": "layout_-_typography.html#c-paragraphs"
+              },
+            
+              
+              
+              {
+              "title": "Contextual color",
+              "breadcrumb": "Layout - Typography > Contextual color",
+              "path": "layout_-_typography.html#d-context-color"
+              },
+            
+              
+              
+              {
+              "title": "Contextual background",
+              "breadcrumb": "Layout - Typography > Contextual background",
+              "path": "layout_-_typography.html#e-context-background"
+              },
+            
+              
+              
+              {
+              "title": "Blockquote",
+              "breadcrumb": "Layout - Typography > Blockquote",
+              "path": "layout_-_typography.html#f-blockquote"
+              },
+            
+              
+              
+              {
+              "title": "Small",
+              "breadcrumb": "Layout - Typography > Small",
+              "path": "layout_-_typography.html#g-small"
+              },
+            
+              
+              
+              {
+              "title": "Text elements",
+              "breadcrumb": "Layout - Typography > Text elements",
+              "path": "layout_-_typography.html#h-text-element"
+              },
+            
+              
+              
+              {
+              "title": "Address",
+              "breadcrumb": "Layout - Typography > Address",
+              "path": "layout_-_typography.html#i-address"
+              },
+            
+              
+              
+              {
+              "title": "List",
+              "breadcrumb": "Layout - Typography > List",
+              "path": "layout_-_typography.html#j-list"
+              },
+            
+              
+              
+              {
+              "title": "Description",
+              "breadcrumb": "Layout - Typography > Description",
+              "path": "layout_-_typography.html#k-description"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Tooltips",
+              "breadcrumb": "JavaScript - Tooltips > Tooltips",
+              "path": "javascript_-_tooltips.html#a-tooltips"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Default well",
+              "breadcrumb": "Components - Well > Default well",
+              "path": "components_-_well.html#a-well"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Pills",
+              "breadcrumb": "Components - Nav > Pills",
+              "path": "components_-_nav.html#b-pills"
+              },
+            
+              
+              
+              {
+              "title": "With dropdown",
+              "breadcrumb": "Components - Nav > With dropdown",
+              "path": "components_-_nav.html#c-with-dropdown"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Single toggle",
+              "breadcrumb": "JavaScript - Buttons JS > Single toggle",
+              "path": "javascript_-_buttons_js.html#b-single-toggle"
+              },
+            
+              
+              
+              {
+              "title": "Checkbox",
+              "breadcrumb": "JavaScript - Buttons JS > Checkbox",
+              "path": "javascript_-_buttons_js.html#c-checkbox"
+              },
+            
+              
+              
+              {
+              "title": "Radio",
+              "breadcrumb": "JavaScript - Buttons JS > Radio",
+              "path": "javascript_-_buttons_js.html#d-radio"
+              },
+            
+          
+        
+          
+        
+      {}];
+      $scope.onSelect = function ($item, $model, $label) {
+        window.location.replace($item.path);
+      };
+    }
   </script>
-  
+  <script type="text/ng-template" id="customTemplate.html">
+    <a href="{{match.model.path}}">
+      <p class="cortana-search-title">{{match.model.title}}</p>
+      <p class="cortana-search-path">{{match.model.breadcrumb}}</p>
+    </a>
+  </script>
   
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
   
-    <script type="text/javascript" src="vendors/bootstrap.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
   
 </body>
 </html>
